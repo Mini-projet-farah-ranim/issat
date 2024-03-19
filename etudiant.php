@@ -146,6 +146,9 @@
                   <h3>Questionnaire</h3>
                 </div>
               </div>
+              <h4  style="position: absolute; right: 400px; top: 62%; transform: translateY(-50%);">
+                <a href="link_to_another_page.html" style="text-decoration: none; color: rgb(73, 57, 113);">Plus</a>
+            </h4>
             </div>
           </div>
 

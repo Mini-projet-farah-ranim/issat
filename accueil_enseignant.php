@@ -88,9 +88,9 @@
         <span class="nav-text">Suivi étudiants</span>
     </a>
     <ul id="dropdownMenu" class="dropdown-menu" style="display: none;">
-        <li><a class="dropdown-item" href="#">Liste étudiants</a></li>
-        <li><a class="dropdown-item" href="#">Gérer notes</a></li>
-        <li><a class="dropdown-item" href="#">Marquer présence</a></li>
+        <li><a style="color:white;background-color:grey;" href="#">Liste étudiants</a></li>
+        <li><a style="color:white;background-color:grey;" href="#">Gérer notes</a></li>
+        <li><a style="color:white;background-color:grey;" href="#">Marquer présence</a></li>
     </ul>
 </li>
 

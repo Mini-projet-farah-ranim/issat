@@ -182,6 +182,13 @@ main {
   font-size: 1.4rem;
   font-weight: 700;
 }
+.more-link a {
+  position: absolute; /* Removes the element from the normal document flow */
+  right: 10px; /* Positions the element 10 pixels from the right edge of its container */
+  top: 50%; /* Positions the element vertically in the middle */
+  transform: translateY(-50%);
+}
+
 
 .activity-container {
   display: grid;
@@ -189,6 +196,7 @@ main {
   grid-template-rows: repeat(2, 150px);
   column-gap: 10px;
 }
+
 
 .img-one {
   grid-area: 1 / 1 / 2 / 2;
@@ -363,21 +371,7 @@ main {
   border-radius: 12px;
 }
 
-.btn {
-  display: block;
-  padding: 8px 24px;
-  margin: 10px auto;
-  font-size: 1.1rem;
-  font-weight: 500;
-  outline: none;
-  text-decoration: none;
-  color: #484b57;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 25px;
-  cursor: pointer;
-}
+
 
 .btn:hover,
 .btn:focus,

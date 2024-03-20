@@ -1,12 +1,264 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Authentification</title>
+
+
+  <link rel="apple-touch-icon" type="image/png"
+    href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+  <meta name="apple-mobile-web-app-title" content="IssatSo">
+
+  <link rel="shortcut icon" type="image/x-icon" href="./img/issat.png" />
+
+  <link rel="mask-icon" type="image/x-icon"
+    href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg"
+    color="#111" />
+
+
+
+
+  <script
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+
+  <title>IssatSo</title>
+
+  <link rel="canonical" href="https://codepen.io/ecemgo/pen/YzBZjjb">
+
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+  <link rel="stylesheet" href="styleEtudiant.css">
+
+
+
+  <script>
+    window.console = window.console || function (t) { };
+  </script>
+
+
+
 </head>
-<body>
-  <h1>hello etudiant</h1>
-  </form>
-</body>
+
+<body translate="no">
+
+  <body>
+    <main>
+      <nav class="main-menu">
+        <h1>IssatSo Admin</h1>
+        <img class="logo" src="" alt="" />
+        <ul>
+          <li class="nav-item active">
+            <b></b>
+            <b></b>
+            <a href="#">
+              <i class="fa fa-house nav-icon"></i>
+              <span class="nav-text">Acceuil</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <b></b>
+            <b></b>
+            <a href="#">
+              <i class="fa fa-user nav-icon"></i>
+              <span class="nav-text">Profile</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <b></b>
+            <b></b>
+            <a href="#">
+              <i class="fa fa-calendar  aria-hidden='true' nav-icon"></i>
+              <span class="nav-text"> Emplois</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <b></b>
+            <b></b>
+            <a href="#">
+              <i class="fa fa-users nav-icon"></i>
+              <span class="nav-text">Chefs départements</span>
+            </a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <b></b>
+            <b></b>
+            <a href="#">
+              <i class="fa fa-calendar aria-hidden='true' nav-icon"></i>
+              <span class="nav-text">Gérer Calendrier universitaire</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <div class="left-content">
+          <div class="activities">
+            <h1>Actualités</h1>
+            <div class="activity-container">
+              <div class="image-container img-one">
+                <img src="./img/bourse.jfif" alt="bourse" />
+                <div class="overlay">
+                  <h3>Bourse</h3>
+                </div>
+              </div>
+
+              <div class="image-container img-two">
+                <img src="" alt="restau" />
+                <div class="overlay">
+                  <h3>restaurant</h3>
+                </div>
+              </div>
+
+              <div class="image-container img-three">
+                <img src="./img/forum.png" alt="forum" />
+                <div class="overlay">
+                  <h3>Forum entreprises 2024</h3>
+                </div>
+              </div>
+
+              <div class="image-container img-four">
+                <img src="" alt="salle DS" />
+                <div class="overlay">
+                  <h3>Répartition des salles de DS</h3>
+                </div>
+              </div>
+
+              <div class="image-container img-five">
+                <img src="./img/blood.jpg" alt="Don" />
+                <div class="overlay">
+                  <h3>Don de sang</h3>
+                </div>
+              </div>
+
+              <div class="image-container img-six">
+                <img src="./img/quest.png" alt="questionnaire" />
+                <div class="overlay">
+                  <h3>Questionnaire</h3>
+                </div>
+              </div>
+              <h4 style="position: absolute; right: 400px; top: 62%; transform: translateY(-50%);">
+                <a href="link_to_another_page.html" style="text-decoration: none; color: rgb(73, 57, 113);">Plus</a>
+              </h4>
+            </div>
+          </div>
+
+          <div class="left-bottom">
+            <div class="weekly-schedule">
+              <h1>Nouvelle actualité? </h1>
+
+
+
+              <form action="#" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label for="message" style="font-weight: bold; color: rgb(73, 57, 113);">Contenu:</label><br>
+                  <div class="card">
+                    <textarea id="message" name="message" rows="4" cols="50"
+                      style="padding: 8px; border: 1px solid #ccc; border-radius: 4px; width: 100%; box-sizing: border-box;"></textarea>
+                  </div>
+                </div>
+
+                <label for="file" style="font-weight: bold; color: rgb(73, 57, 113);">Choisir un fichier:</label><br>
+                <input type="file" id="file" name="file"
+                  style="padding: 8px;  border-radius: 4px; width: 100%; box-sizing: border-box;">
+
+                <div class="form-group">
+                  <input type="submit" value="Submit"
+                    style="background-color: green; color: white; border: none;border-radius:15px; padding: 10px 20px; cursor: pointer;">
+                </div>
+              </form>
+
+
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="right-content">
+          <div class="user-info">
+            <div class="icon-container">
+              <i class="fa fa-bell nav-icon"></i>
+              <i class="fa fa-message nav-icon"></i>
+            </div>
+            <h4>ali</h4>
+            <img
+              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/40b7cce2-c289-4954-9be0-938479832a9c"
+              alt="user" />
+          </div>
+
+
+          <div class="liens">
+            <h1 style="align-self: flex-start">Liens utiles</h1>
+            <div class="liens-container">
+
+              <div class="liens-content">
+                <p><i class="fa fa-external-link" aria-hidden="true"></i><span><a href="http://www.mes.tn/">Ministere de
+                      l'enseignement superieur</a></span></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="friends-activity">
+            <h1>Accés récent</h1>
+            <div class="card-container">
+              <div class="card">
+                <div class="card-user-info">
+                  <i class="fa fa-book nav-icon"></i>
+                  <h2>Cours</h2>
+                </div>
+
+                <a href="">Cours BD: Ch3 </a>
+              </div>
+
+              <div class="card card-two">
+                <div class="card-user-info">
+                  <img src="" alt="" />
+                  <h2>Cours</h2>
+                </div>
+
+                <a href="">Cours Algorithme: Ch1</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </section>
+    </main>
+
+
+    <script id="rendered-js">
+      const navItems = document.querySelectorAll(".nav-item");
+
+      navItems.forEach((navItem, i) => {
+        navItem.addEventListener("click", () => {
+          navItems.forEach((item, j) => {
+            item.className = "nav-item";
+          });
+          navItem.className = "nav-item active";
+        });
+      });
+      //# sourceURL=pen.js
+    </script>
+
+
+  </body>
+
 </html>

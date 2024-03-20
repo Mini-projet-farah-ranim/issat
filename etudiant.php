@@ -120,7 +120,7 @@
               </div>
 
               <div class="image-container img-three">
-                <img src="" alt="forum" />
+                <img src="./img/forum.png" alt="forum" />
                 <div class="overlay">
                   <h3>Forum entreprises 2024</h3>
                 </div>
